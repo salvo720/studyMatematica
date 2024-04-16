@@ -1,0 +1,14 @@
+Definizioni 
+N = indica numeri naturali, i numeri naturali vanno da 0 a 9, gli altri numeri si formeranno aggiungendo a seguito un altro numero.
+i numeri esprimo la cardinalita(Quanti oggetti ci sono) e l'ordine(esempio ordine di arrivo primo,secondo). 
+Ongi numero naturale ha un precendete e un successivo, ad eccezione di 0.
+Tra i numeri naturali esiste una relazione di ordine,chiamata disuguaglianza che si indica con >=(maggiore uguale) o <= (minore uguale), o disugluaglianza stretta >(maggiroe) o <(minore).
+Grazie a questa disuglianza è sempre possibile confrontare 2 numeri naturali.
+
+Prima legge di tricotomia, dati 2 numeri naturali n e m vale sempre una delle seguneti relazioni:
+1) n < m 
+2) n = m 
+3) n > m
+
+Le operazioni di addizzione e di moltiplicazione si dicono operazioni interne agli insiemi dei numeri naturali, poiche utilizzando numeri naturali,
+danno come risultato sempre un numero naturale.
