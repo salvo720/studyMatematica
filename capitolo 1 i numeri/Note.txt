@@ -1,3 +1,5 @@
+Note: 
+*: il simbolo della moltiplicazioni è uguale a quella della programmazione 
 Definizioni 
 N = indica numeri naturali, i numeri naturali vanno da 0 a 9, gli altri numeri si formeranno aggiungendo a seguito un altro numero.
 i numeri esprimo la cardinalita(Quanti oggetti ci sono) e l'ordine(esempio ordine di arrivo primo,secondo). 
@@ -11,4 +13,50 @@ Prima legge di tricotomia, dati 2 numeri naturali n e m vale sempre una delle se
 3) n > m
 
 Le operazioni di addizzione e di moltiplicazione si dicono operazioni interne agli insiemi dei numeri naturali, poiche utilizzando numeri naturali,
-danno come risultato sempre un numero naturale.
+e danno come risultato sempre un numero naturale.
+
+-  Sottrazione 
+dati due numeri naturali: n - m = d.
+n si dice minuendo.
+m si dice sottraendo.
+d si dice il risutalto che sommato a m fara sempre N.
+
+-  Divisioni 
+Dati due numeri naturali: n : m = q.
+n si dice dividendo e è diverso da 0.
+m si dice divisore.
+q si dice quozente esatto o qouto un numero naturale che moltiplicato per m da come risultato n.
+
+Se il quozionete esiste si dice che m è divisore di m altirmenti si dice che n non è divisibile per n.
+
+è possibile indicare la divisione con diversi simboli 
+n:m=q , n/m=q
+
+un numero naturale m si dice multiplo di n, se esiste un numero natrale q, che moltiplicato per n da sempre m 
+esempio: m = n * q.
+
+la divisione per 0:0 è indeterminata.
+
+Dati due numeri naturali con n e m, con m != 0, la divisione intera tra n e m è l'operazione che associa il piu grande numero naturale q(il quoziente)
+per cui si ha q * n<= m
+
+
+la divsione intera si indica con div ad esempio: 10 div 3 = 3
+
+L'operazione che restiusce il resto di un adivisione si chiama modulo e viene indicata con mod, esmepio 10 mod 3 = 1.
+
+
+- Operazioni
+un operazione si dice cumulativa se cambiando l'ordine dei numeri sulla quale viene eseguita il risultato non cambia.
+la propieta cumulativa vale per i seguenti casi:
+1) a + b = b + a
+2) a * b = b * a
+
+Un operazione si dice associativa se presi arbitrariamente tre numeri legati da due operazioni, è 
+indifferente da quale operazione si inizia in quanto il risultato che si ottiene è sempre lo stesso.
+la propieta associativa vale per le seguenti operazioni:
+(a + b) + c = a + (b + c) Esempio : (3 + 5) + 2 = 3 + (5 + 2)= 10
+(a * b) * c = a * (b * c) Esempio : (3 * 5) * 2 = 3 * (5 * 2)= 10
+
+
+
