@@ -59,4 +59,24 @@ la propieta associativa vale per le seguenti operazioni:
 (a * b) * c = a * (b * c) Esempio : (3 * 5) * 2 = 3 * (5 * 2)= 10
 
 
+Elemento neutro 
+Un operazione ha un elemeto neutro n, se componendo n con qualsiasi altro numero lo lascia invariato.
+si quando il numero è a destra, sia quando il numero è a sinistra, 
+Regola: a + n = n + a = a,   Esempio Numerico a + 0 = 0 + a = a.
+L'elmento netro dell'addione è 0, della moltiplicazione 1.
+La divisione ha un elmeneto neutro a destra 1, ma non ha un elemento neutro a sinistra.
+Esempio a : 1 = a se ( 1 : a != a, se a != 1 )
+In maniera analoga anche la sottrazione ha l'elemento neutro 0, solo a destra. 
+Esempio a - 0 = a se ( 0 - a != a, se a != 0 )
 
+Propieta distributiva 
+della moltiplicazione
+Moltiplicare il risultato dell'ddizione di piu numeri per un altro numero da lo stesso risultato che moltiplicare ogni addendo per il fattore 
+considerato e addizionare i prodotti ottenuti.Questa propieta vale sia se la somma è a destra sia se la somma è a sinistra. 
+Regola: a * (b + c) = a * b + a * c, Esempio numerico: 3 * (2 + 4 )= 3 * 2 + 3 * 4 = 18 
+(a + b) * c = a * c + b * c, Esempio numerico: (2 + 4 ) * 3 = 2 * 3 + 4 * 3 = 18 
+
+Rispetto alla sotrrazione in maniera analoga: 
+
+Regola: a * (b - c) = a * b - a * c Esempio numerico: 6 * (10 - 4) = 6 * 10 - 6 * 4 = 36
+(a - b) * c = a * c - b * c Esempio numerico: (10 - 4) * 6 = 10 * 6 - 4 * 6 = 36
