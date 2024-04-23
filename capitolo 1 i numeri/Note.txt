@@ -1,7 +1,8 @@
 Note: 
-*: il simbolo della moltiplicazioni è uguale a quella della programmazione 
+*: il simbolo della moltiplicazioni è uguale a quella della programmazione in js
+**: il simbolo della potenza è uguale a quella della programmazione in js
 Definizioni 
-N = indica numeri naturali, i numeri naturali vanno da 0 a 9, gli altri numeri si formeranno aggiungendo a seguito un altro numero.
+N = indica numeri naturali, i numeri naturali vanno da 0 a infinito,per quanto riguarda i simboli vanno da 0 a 9 gli altri numeri si formeranno aggiungendo a seguito un altro numero.
 i numeri esprimo la cardinalita(Quanti oggetti ci sono) e l'ordine(esempio ordine di arrivo primo,secondo). 
 Ongi numero naturale ha un precendete e un successivo, ad eccezione di 0.
 Tra i numeri naturali esiste una relazione di ordine,chiamata disuguaglianza che si indica con >=(maggiore uguale) o <= (minore uguale), o disugluaglianza stretta >(maggiroe) o <(minore).
@@ -98,5 +99,29 @@ Guass matematico prodigio nella somma da 1 a 100, scrive 2 righe nella prima i n
 cosi noto che otteneva sempre come somma 101, percio 101 * 100 : 2 = 5050.
 
 Potenze 
+la potenza è una moltiplicazione con tutti i fattori uguali
 
+Definizione: dati due numeri naturali a ** n , il primo è detto base e il secondo è detto esponente la potenza di a con esponente n 
+è il numero p che si ottiene moltiplicando n fattori tutti uguali ad a,  a ** n = p .
+Per completeza, alla definizione vengono aggiunti : a ** 1 = a, a ** 0 = 1 se a != 0, 0 ** 0 non ha significato.
+
+Propietà delle potenze (molitplicazione)
+Il prodotto di due potenze con la stessa base è uguale a una potenza che ha per base,la stessa base e per esponenti la somma degli esponenti:
+a ** n + a ** m = a ** n + m . 
+
+
+La stessa regola vale anche per la divisione sottraendo l'esponente.
+La potenza di potenza (a ** n) **m = a ** n * m   Esempio: (6 ** 2 ) **5 = 6 ** 10
+
+il prodotto di potenze con lo stesso esponente è uguale al prodotto delle potenze dei singoli fattori, (a * b) ** n = a ** n * b ** n
+
+la potenza di un quoziente è uguale al quozionete delle potenze dei singoli fattori (a : b) ** n = a ** n : b ** n  
+Esempio (4 : 2) ** 8 = 4 ** 8 : 2 ** 8 = 65536 : 256 = 256 
+La definizione dei casi particolari si giustificano nel seguente modo:
+1) a ** 0 = a ** 5 - 5 = a ** 5 : a ** 5 = 1
+2) a ** 1 = a ** 5 - 4 = a ** 5 : a ** 4 = a
+alla potenza 0 ** 0 non si assegna nessun valore perchè applicando la definzione a ** 0 si dovrebbe avere 1, applicando la definizione 0 ** a 
+si dovrebbe avere 0.
+
+Cenni sull'estrazione di radice 
 
