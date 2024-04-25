@@ -124,4 +124,94 @@ alla potenza 0 ** 0 non si assegna nessun valore perchè applicando la definzion
 si dovrebbe avere 0.
 
 Cenni sull'estrazione di radice 
+L'operazione inversa dell'elevazione a potenza è l'estrazione di radice.
+
+Definizione: Dati 2 numeri naturali a e n(con n > 1), si definisce radice n-esima di a il numero r tale che moltiplicando tra di loro n fattori 
+tutti uguali a r si ottiene come risultato a.
+
+l'uso della radice con base 2 e predominate in matematica rispetto a quelle dell'ordine superiore, nel caso in cui la radice non sia
+specificata si sottointente la base 2, esempio √9 = ²√9 = 3 .
+
+Numeri primi
+
+Definizione: chaiamiamo divisore propio di un numero, un suo divisore diverso dal numero stesso e dall'unità.
+Definizione: un numero p > 1 si dice primo se è divisibile solo per se stesso e l'unita. Un numero naturale maggiore di 1 non primo si dice composto
+perche ha piu di 2 divisori.
+
+0: non è numero primo ne composto. (non è primo eprche non ha 2 divisori)
+1: non è ne primo ne composto. (non è primo eprche non ha 2 divisori)
+2: è primo 
+3: è primo 
+4: è composto 
+5: è primo 
+6: è composto 
+7: è primo
+8: è composto 
+9: è composto 
+10: è composto
+11: è primo 
+12: è composto 
+12: è primo
+
+osservazione: un numero è primo quando non è divisibile per nessun altro numero primo compreso tra 2 e la radice quadrata del numero stesso. 
+
+Cioe ad esempio ²√59 = 7,6 , quindi prendo tutti i numeri primi tra 2 e 7, cioe 2,3,5,7 e verifico se è
+divisibile per loro, se non lo è sara un numero primo.
+
+Criteri di visibilita
+per verificare se un numero è divisibile per i primi numeri interi si possono applicare i criteri di visibilità.
+1) Divisibilità per 2, un numero è divisibile per 2 solo se la sua ultima cifra è pari, cioe 0,2,4,6,8. 
+2) Divisibilità per 3, un numero è divisile per 3 solo se la somma delle cifre che lo compongono è divisile per 3. 
+3) Divisibilità per 5, un numero è divisibile per 5 se la sua ultima cifra è 0 o 5. 
+4) Divisibilità per 7, un numero(maggiore di 10) è divisile per 7 se la diffrenza (in un valore assoluto) tra il valore 
+ottenuto dal numero stesso togliendo la cira delle unità è il doppio della cifra delle unità è 7 o un multiplo di 7,
+esempio:252 è multiplo di 7, infatti |25 - 2 * 2| = 21 è divisible per 7. 
+esempio:49 è multiplo di 7, infatti |4 - 2 * 9| = 14 è divisible per 7. 
+Definizione alternativ: Prendiamo un numero togliamo le unita(parte destra), prendiamo le decine gli sottraiamo le unita moltiplicate per 2, 
+se è 7 o un multiplo è divisibile.
+
+5) Divisibilità per 11: un numero è divisile per 11 solo se la differenza tra, in un valore assoluto, fra la somma delle cifre di posto pari,
+e la somma delle cifre di posto dispari è 0,11 o un multiplo di 11. 
+ad esempio: 
+253 è divisile per 11 perche: |5-(2+3)| = 0. è divisile per 11.
+9482 è divisile per 11 perche: |9+8-(2+4)| = 11. è divisile per 11.
+
+Scomposizione in fattori primi
+Scomporre in fattori (o fattorizzare) un numero significa scomporre un numero in numeri naturali.
+Teorema 1.3 aritimetica: Ogni numero naturale n > 1, si può scrivere in modo unicocome prodotto di altri numeri.
+
+Scomporre in numeri primi il numero:
+630 | 2 è divisile per 2 perche termina con 0
+315 | 3 è divisile per 3 perche la somma è un multiplo di 3
+105 | 3 è divisile per 3 perche la somma è un multiplo di 3
+35 | 5 è divisile per 5 perche termina con 5
+7 | 7 è divisile per 7 perche è numero primo
+
+630 = 2 * (3 ** 3) * 5 * 7 
+
+Note: i numeri primi sono mattoni fondamentali dell'aritimetica, poiche gli altri numeri naturali possono essere 
+ottenuti in maniera univoca, come prodotto di primi.
+teorema 1.4 (di Euclide) = Anche se diventano sempre piu radi, i numeri primi sono infiniti.
+
+Massimo comune divisore e minimo comune multiplo
+Definizione: Il Massimo comune divisore di due numeri naturali a e b, è il piu grande tra tutti i divisori comuniad a e b, 
+e viene indicato con MCD(a,b).
+
+Ad esempio 18 e 12, 
+18 è divisible per 18,9,6,3,2,1 
+12 è divisibile per 12,6,4,3,2,1
+
+il MDC(18,12) = 6.
+Per ottenere il massimo comune divisore si puo seguire la procedura:
+Per calcolare il MDC di due o più numeri naturali:
+1) Si scompongono i numeri in fattori primi
+2) Si moltiplicano tra di loro i fattori comuni presi 1 sola volta e con il minor esponente.
+Esempio : trova il MCD(60,48,36) 
+60 = (2 ** 2) * 3 *5
+48 = (2 ** 4) * 3
+36 = ( 2 *2 ) * (3 ** 2)
+Percio prendeno la parte comune solo 1 volta il minimo comune divisore é = (2 ** 2) * 3 = 12
+MCD(60,48,36)= (2 ** 2) * 3 = 12
+
+
 
