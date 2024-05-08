@@ -249,10 +249,24 @@ Gli autobusi si ritroverrano insieme alla stessa fermata alle 11:00
 
 Definizione 1.16: una operazione aritmetica è una successione da eseguire su piu numeri.
 Ordine delle operazione: 
-Se un operazione contiene solo addizioni, le operazioni si possono eseguire in qualsiasi ordine,
+1)Se un operazione contiene solo addizioni, le operazioni si possono eseguire in qualsiasi ordine,
 grazie alla propieta associativa dell'addizione.
 Esempio: semplificare l'espressione: 3 + 2 + 5 = 5 + 5 = 10 Eseguita oeprazione in ordine di come compaiono
 3 + 2 + 5 = 3 + 7 = 10  Eseguita ultima operazione 
 5 + 6 + 15 = 6+ 20 = 26 In questo caso abbiamo applciatio anche la propieta commutativa 
+
+2) Se un espressione contiene solo moltiplicazione si possono eseguire in qualsiasi ordine, esempio :
+2 * 3 * 4 = 6 * 4 = 24 (ordine in cui compaiono)
+2* 3 * 4 = 2 * 12 = 24 (ordine opposto, stesso risultato)
+
+3) Se abbiamo un espressione senza pararentisi e abbaimo una sottrazione dobbiamo eseguirla nell'ordine in cui appaiono, perche la sottrazione non gode ne della propieta associativa
+ne di quella commutativa,esempio:
+10 - 6 - 1 = 4 - 1 = 3.
+
+4) Se un espressione senza parentesi contine addizioni e sottrazioni vanno eseguite nell'ordine in cui sono scritte, esempio:
+12 + 6 - 5 - 1  + 2 = 18 - 5 - 1 +2 = 18 - 6 + 2 = 12 + 2 = 14.
+
+5) Se un espressione contiene solo divisioni devono essere eseguite nell'ordine in cui sono scritte, esempio:
+ 360 : 12 : 3 = 30 : 3 = 10.
 
 
