@@ -269,4 +269,38 @@ ne di quella commutativa,esempio:
 5) Se un espressione contiene solo divisioni devono essere eseguite nell'ordine in cui sono scritte, esempio:
  360 : 12 : 3 = 30 : 3 = 10.
 
+6) Se un espressione senza parentesi contiene addizioni, sottrazioni, moltiplicazioni, divisione e potenze, si eseguono prima le potenze,
+poi le moltiplicaizoni e divisoni rispettando l'ordine in cui sono scritte e poi addizzioni e sottrazioni, rispettando l'ordine. Esempio:
+18 : 2 : 9 + (5 ** 2) - 2 * (3 ** 2) : 3  - 1 = 
+9 : 9 + 25 - 2 * 9 : 3 - 1 = 
+1 + 25 - 18 : 3 - 1 = 
+1 + 25 -6 - 1 = 
+25 - 6 = 19 
+
+7) Se l'espressione contiene una coppia di parentesi si devono eseguire prima le parentesi, rispettando le regole precendenti. 
+Si eliminano poi le parentesi  ottenendo un espressione senza parentesi alla quale devono essere applicate le regole precendenti. Esempio : 
+5 * (4 + (3 ** 2 ) - 1 )= 
+
+5 * ( 4 + 9 -1 )
+5 * 12 = 60 
+
+8) Se l'espressione contiene piu ordini di parentesi, si eseguono per pirma le operazioni rachiuse nelle parentesi piu interne, rispettando le 
+regole precendeti, si eliminano le parentesi e si procede considerando la nuova espressione.
+Se ci sono ancora delle parentesi si eseguono per prima le operazioni tra le parentesi più interne rispettando le regole precendeti, 
+si eliminano le parentesi e si procede con la nuova espressione. E cosi via ...
+per facilitare il riconosciemnto delle parentesi si usano le parentesi
+1) tonde () per il pirmo livello, quello piu interno 
+2) quadre per il secondo livello 
+3) le graffe {} per il terzo livello quello piu esterno
+l' uso di parentesi di diverso tipo rende visivamente piu evidente l'ordine da eseguire nelle operazioni, ma in un espressioni le 
+parentesi posso essere soltanto tonde.
+Cio ad esempio accadade quando si usano strumenti di calcolo elettronico come il computer e la calcolatrice.
+{ [ 3 * 5  - ( 5 * 2 - 4 )] * 2 } : [(5 * 6) : (3 * 5 ) + 5 : 5 ] - { ((5 ** 2 ) * 4) : 10 - (3 ** 2)} + 1 
+{ [ 15 - (10 - 4)] * 2 } : [ 30 : 15 + 1 ] - { ( 25 * 4 ) : 10 - 9 } + 1 
+{ [ 15 - 6 ] * 2 } : [ 2 + 1 ] - { 100 : 10 - 9 } + 1 
+{ 9 * 2 } : 3 - {10 - 9} + 1 =
+18 : 3 - 1 +1  = 
+6  = 6 
+
+Esercizi
 

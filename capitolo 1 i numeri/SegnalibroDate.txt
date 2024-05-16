@@ -1,8 +1,9 @@
-TODO Segnalibro: fermo a pag 22 sezione 14.2 Sottrazione di numeri naturali 16/04/2023
-TODO Segnalibro: fermo a pag 22 sezione 1.5.3 Elemento neutro 17/04/2023
-TODO Segnalibro: fermo a pag 27 sezione propieta distributiva della divsione 18/04/2023
-TODO Segnalibro: fermo a pag 28 sezione potenze 22/04/2023
-TODO Segnalibro: fermo a pag 30 1.6.2 Cenni sull’estrazione di radice 23/04/2023
-TODO Segnalibro: fermo a pag 35 Definizione 1.14 Due numeri a e b si dicono primi se o comprimi se MCD(a,b)=1 25/04/2023
-TODO Segnalibro: fermo a pag 37 sezione 2 prima di Esempio Dovendo moltiplicare 2 * 3 * 4 si può procedere in piu modi 1.19 02/05/2023
-TODO Segnalibro: fermo a pag 38 sezione 6 Se un espressione senza parentesi contiene addizioni,moltiplicazioni,sottrazioni e potenze 08/05/2023
+TODO Segnalibro: fermo a pag 22 sezione 14.2 Sottrazione di numeri naturali 16/04/2024
+TODO Segnalibro: fermo a pag 22 sezione 1.5.3 Elemento neutro 17/04/2024
+TODO Segnalibro: fermo a pag 27 sezione propieta distributiva della divsione 18/04/2024
+TODO Segnalibro: fermo a pag 28 sezione potenze 22/04/2024
+TODO Segnalibro: fermo a pag 30 1.6.2 Cenni sull’estrazione di radice 23/04/2024
+TODO Segnalibro: fermo a pag 35 Definizione 1.14 Due numeri a e b si dicono primi se o comprimi se MCD(a,b)=1 25/04/2024
+TODO Segnalibro: fermo a pag 37 sezione 2 prima di Esempio Dovendo moltiplicare 2 * 3 * 4 si può procedere in piu modi 1.19 02/05/2024
+TODO Segnalibro: fermo a pag 38 sezione 6 Se un espressione senza parentesi contiene addizioni,moltiplicazioni,sottrazioni e potenze 08/05/2024
+TODO Segnalibro: fermo a pag 40 sezione 1.12 Esercizi singoli paragrafi Operazioni numeri naturali 1.14 16/05/2024
