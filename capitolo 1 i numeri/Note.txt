@@ -464,9 +464,17 @@ Crivello di erastone
 
 a) 1320 è divisible per : 2,3,4,5,6,9,10,11
 b) 2344 è divisible per : 2,4,6
-c) 84 è divisible per :  2,3,4,6,7,
+c) 84 è divisible per : 2,3,4,6,7,
 d) 1255 è divisible per : 5
 e) 165 è divisible per : 3,5,11
-f) 720: 2,3
-g)
-h)
+f) 720 è divisible per : 2,3,4,5,6,8,9,10
+g) 792 è divisible per : 2,3,4,6,8,9,11
+h) 462 è divisible per : 2,3,4,6,7,8,11
+
+
+1.18) Determina tutti i divisori di 32, 18 , 24, 36.
+
+32: 
+18:
+24:
+36: 
